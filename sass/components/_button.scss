@@ -1,0 +1,25 @@
+.btn {
+  width: 159px;
+  height: 44px;
+  //left: 0px;
+  // top: 0px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3125;
+  //letter-spacing: 0.06em;
+  color: $accent-color;
+  background: $primary-white;
+  display: flax;
+  align-items: center;
+  text-align: center;
+  //padding: 10px 32px;
+  border-radius: 22px;
+  border: none;
+
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $btn-color-grey;
+  }
+}
